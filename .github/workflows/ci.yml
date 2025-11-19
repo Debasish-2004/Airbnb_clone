@@ -37,7 +37,6 @@ jobs:
           bundler-cache: true
 
       - name: Scan for security vulnerabilities in JavaScript dependencies
-        
 
   lint:
     runs-on: ubuntu-latest
